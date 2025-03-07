@@ -1,0 +1,22 @@
+Cyberattacks are growing with the rapid development and wide use of internet technology. 
+Botnet attack emerged as one of the most harmful attacks. Botnet identification is becoming 
+challenging due to the numerous attack vectors and the ongoing evolution of viruses. As the 
+Internet of Things (IoT) technology is developing rapidly, many network devices have been subject 
+to botnet attacks leading to substantial losses in different sectors. Botnets pose serious risks to 
+network security and deep learning models have shown potential for efficiently identifying botnet 
+activity from network traffic data. In this research, a botnet identification system is proposed based 
+on the stacking of artificial neural network (ANN), convolutional neural network (CNN), long 
+short-term memory (LSTM), and recurrent neural network (RNN) (ACLR). The experiments are 
+conducted by employing both the individual models, as well as, the proposed ACLR model for 
+performance comparison. The UNSW-NB15 dataset is used for botnet attacks and contains nine 
+different attack types including ‘Normal’, ‘Generic’, ‘Exploits’, ‘Fuzzers’, ‘DoS’, 
+‘Reconnaissance’, ‘Analysis’, ‘Backdoor’, ‘Shell code’ and ‘Worms’. Experimental results 
+indicate the proposed ACLR model gains 0.9698 testing accuracy showing that it is successful in 
+capturing the intricate patterns and characteristics of botnet attacks. The proposed ACLR model’s 
+k values (3, 5, 7, and 10) for a K-fold cross-validation accuracy score is 0.9749 indicating that the 
+model’s robustness and generalizability are demonstrated by k = 5. In addition, the proposed model 
+detects botnets with a high receiver operating characteristic area under the curve (ROC-AUC) of 
+0.9934 and a precision-recall area under the curve (PR-AUC)of0.9950. Performance comparison 
+with existing state-of-the-art models further corroborates the superior performance of the proposed 
+approach. The results of this research can be helpful against evolving threats and enhance cyber 
+security procedures.
